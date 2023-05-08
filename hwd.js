@@ -15,8 +15,8 @@ window.onload = function () {
     }
     document.write('</table>');
     
-    var clicktest = document.querySelector("td");
-    clicktest.onclick = function (event){
-        alert(this.id);
-    }
+   // var clicktest = document.querySelector("td");
+    //clicktest.onclick = function (event){
+    //    alert(this.id);
+    // }
   }
