@@ -1,8 +1,15 @@
 body {
-    color: black;
+    background-color: black;
 }
 
 table #hwdLightTable{
-    width: 100%;
+    width: 80%;
+    height: 10%;
+    margin: auto;
+    margin-top: 20%;
     border: 1px solid #ffffff;
+}
+
+th, td {
+    border: 1px solid #444444;
 }
