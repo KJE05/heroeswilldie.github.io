@@ -20,6 +20,6 @@ window.onload = function () {
     
     var clicktest = document.querySelector("td");
     clicktest.onclick = function (event){
-        console(this.id);
+        console.log(this.id);
      }
   }
