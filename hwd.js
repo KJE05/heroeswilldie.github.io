@@ -7,7 +7,7 @@ window.onload = function () {
         document.write('<tr>');
             for (let j = 0; j < columnCnt; j++)  {
                 var tdId = "hwdLight"+j;
-                document.write('<td class="hwd" id='+tdId+'>');
+                document.write('<td class="hwd">');
                 document.write("");
                 document.write('</td>');
             }
@@ -15,8 +15,8 @@ window.onload = function () {
     }
     document.write('</table>');
     
-   // var clicktest = document.querySelector("td");
-    //clicktest.onclick = function (event){
-    //    alert(this.id);
-    // }
+    var clicktest = document.querySelector("td");
+    clicktest.onclick = function (event){
+        alert(this.class);
+     }
   }
