@@ -2,7 +2,7 @@ window.onload = function () {
     var rowCnt = 1;
     var columnCnt = 8;
 
-    document.write('<table border="1">');
+    document.write('<table id="hwdLightTable" border="1">');
     for (let i = 0; i < rowCnt; i++) {
         document.write('<tr>');
             for (let j = 0; j < columnCnt; j++)  {
