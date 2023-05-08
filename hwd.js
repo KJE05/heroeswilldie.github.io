@@ -5,7 +5,7 @@ window.onload = function () {
     var body = document.querySelector("body");
     body.style.backgroundColor = "#000000";
     
-    document.write('<table id="hwdLightTable" style="width:100%; border:1px solid #ffffff">');
+    document.write('<table id="hwdLightTable" style="width:100%;">');
     for (let i = 0; i < rowCnt; i++) {
         document.write('<tr>');
             for (let j = 0; j < columnCnt; j++)  {
