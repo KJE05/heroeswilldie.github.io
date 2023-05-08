@@ -1,8 +1,8 @@
 body {
-    background-color: black;
+    color: black;
 }
 
-table{
+table #hwdLightTable{
     width: 100%;
     border: 1px solid #ffffff;
 }
