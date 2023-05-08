@@ -15,10 +15,8 @@ window.onload = function () {
     }
     document.write('</table>');
     
-    var target = EventTarget;
-    var hw = document.getElementById('hw');
-    var hwdr = document.getElementsByTagName('td');
-    hwdr.addEventListener('click', function () {
-      alert('Hello world');
-    })
+    var clicktest = document.querySelector("td");
+    clicktest.onclick = function (event){
+        alert(this.id);
+    }
   }
