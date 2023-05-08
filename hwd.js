@@ -1,10 +1,11 @@
 window.onload = function () {
-    var rowCnt = 8;
-    var columnCnt = 1;
+    var rowCnt = 1;
+    var columnCnt = 8;
 
-    document.write('<table id="hwd" border="1">');
+    document.write('<table border="1">');
     for (let i = 0; i < rowCnt; i++) {
-        document.write('<tr>');
+        var trId = "hwdLight"+i;
+        document.write('<tr class="hwd" id=trId>');
             for (let j = 0; j < columnCnt; j++)  {
                 document.write('<td>');
                 document.write(i + ", " + j);
@@ -13,9 +14,4 @@ window.onload = function () {
         document.write('</tr>')
     }
     document.write('</table>');
-
-    var hw = document.getElementById('hw');
-    hw.addEventListener('click', function () {
-      alert('Hello world');
-    })
   }
